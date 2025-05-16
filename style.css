@@ -1,0 +1,57 @@
+/* Basic PayPal-style styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.header {
+  background-color: #003087;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.chat-placeholder {
+  font-size: 1rem;
+}
+
+.main-content {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #003087;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.chat-callout {
+  margin-top: 2rem;
+  background-color: #e1ecf4;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #003087;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
